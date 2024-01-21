@@ -53,3 +53,63 @@ footer {
 .naam {
   text-align: right;
 }
+
+.info p {
+  margin-top: -17px;
+}
+
+.info h4 {
+  margin-top: -10px;
+}
+
+.linkport  {
+font-family: helvetica;
+font-size: 0.9em;
+width: 150px;
+background-color: black;
+padding: 10px;
+padding-right: 20px;
+padding-left: 20px;
+color: white;
+border: 0;
+text-decoration: none;
+}
+
+
+
+@media (min-width:800px) {
+  .iets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5em;
+    column-gap: 100px;
+  }
+
+  .titel {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .titelinfo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .me {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width:800px) {
+
+.me {
+  margin-top: 50px;
+}
+
+
+}

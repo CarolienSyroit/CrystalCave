@@ -51,6 +51,26 @@ footer {
   text-align: right;
 }
 
+.linkproto {
+  font-family: helvetica;
+  font-size: 0.9em;
+  width: 150px;
+  background-color: black;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  border: 0;
+  text-decoration: none;
+}
+
+.opbouwmockup{
+  max-width: 100%;
+}
+
+
+
+
 @media (min-width:800px) {
 
   /*grid1 lay-out begin desktop*/
@@ -98,7 +118,7 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
     margin-bottom: 100px;
-    width: 100%
+    width: 100%;
   }
 
   .opbouwfoto {
@@ -173,8 +193,17 @@ footer {
   /*grid2 lay-out einde*/
 
   /* Prototype proberen lay-out */
+.allprototype {
+  display: 1fr;
+}
+
   .protoprobeer {
     padding: 2em;
+  }
+
+  .prototypevolledig {
+    width: 97%;
+    padding: 20px;
   }
 
 }
@@ -211,9 +240,23 @@ main {
 }
 
 .mockupfoto {
-  width: 100%
+  width: 100%;
 }
 
 .prototypevolledig {
-  width: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.contrastkleur {
+  max-width: 100%;
+}
+
+.korting {
+  max-width: 100%;
+}
+
+.filterfoto {
+  max-width: 100%
+}
 }
