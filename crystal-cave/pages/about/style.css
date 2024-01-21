@@ -1,0 +1,55 @@
+body {
+  font-family: "helvetica neue", helvetica;
+  font-size: 100%;
+}
+
+header {
+  background-color: #C65F5F;
+  margin: -0.5em;
+  padding: 20px;
+}
+
+.fotologo {
+  width: 15%;
+}
+
+nav ul li a {
+  color: white;
+  display: inline;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-right: 2em;
+}
+
+  header ul:first-child {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: 3vw;
+      }
+
+nav ul li .about {
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+}
+
+.mefoto {
+  max-width: 100%;
+}
+
+.iets {
+  padding: 50px;
+}
+
+footer {
+  background-color: #F6E8EA;
+  margin: -0.5em;
+  padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.naam {
+  text-align: right;
+}
